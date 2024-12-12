@@ -16,7 +16,6 @@ numbers = [4, 7, 2, 9, 12, 15]
 
 odd_sum = 0
 
-# Loop through each number in the list
 for num in numbers:
     if num % 2 != 0:  # Checks if the number is odd
         odd_sum += num  
